@@ -27,13 +27,7 @@ A full-stack web application that enables multiple users to **collaboratively wr
 
 ---
 
-## 📸 Demo
 
-![Demo GIF or Screenshot Placeholder](./demo.gif)
-
-> _You can insert a screen recording or screenshot here._
-
----
 
 ## 🧩 How It Works
 
@@ -51,3 +45,17 @@ A full-stack web application that enables multiple users to **collaboratively wr
 ```bash
 git clone https://github.com/your-username/realtime-code-editor.git
 cd realtime-code-editor
+cd server
+npm install
+
+Create a .env file and add your JDoodle credentials:
+JDOODLE_CLIENT_ID=your_client_id
+JDOODLE_CLIENT_SECRET=your_client_secret
+
+Start the server:
+npm start
+
+3. Setup the frontend
+cd ../client
+npm install
+npm start
